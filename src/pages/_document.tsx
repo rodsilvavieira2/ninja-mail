@@ -1,30 +1,29 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang='en'>
-      <Head >
-        <title>NinjaMail</title>
-        {
-          /*
-          * Raleway fonts
-          */
-        }
+    <Html lang="en">
+      <Head>
+        {/*
+         * Raleway fonts
+         */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
 
-
-        {
-          /*
-          * Playfair fonts
-          */
-        }
+        {/*
+         * Playfair fonts
+         */}
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <body>
@@ -32,5 +31,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
