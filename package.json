@@ -2,6 +2,16 @@
   "name": "ninja-mail",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Rodrigo Silva",
+    "email": "rodsilvavieira@gmail.com"
+  },
+  "keywords": [
+    "typescript",
+    "nextjs",
+    "styled-components",
+    "dayjs"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
