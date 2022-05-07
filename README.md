@@ -11,6 +11,7 @@ Responsive layout of a website landing page to promote email campaigns.
 - Dayjs
 
 # Deploy 🚀
+[ninja-mail](https://ninja-mail-taupe.vercel.app/)
 
 # Preview 💻
 
